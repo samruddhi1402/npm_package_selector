@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-results li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-results .name {
+  font-size: 24px;
+}
+
+.search-results button {
+  font-size: 24px;
+}
+
+.favorites li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.favorites .name {
+ 
+  font-size: 24px;
+}
+
+.favorites .description {
+margin-right: 20px;
+}
+
+.favorites button {
+font-size: 24px;
+background-color: #f44336;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 10px;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
+}
+
+.favorites button:hover {
+background-color: #d32f2f;
+}
